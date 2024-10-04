@@ -252,10 +252,49 @@ article em {
 }
 
 .schedule {
-    width: 100vw;
-    height: 80vh;
 
+    margin-top: 200px;
+    height: 80vh;
     background-color: #ffffff;
     text-align: center;
 }
+.schedule h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding-top: 100px ;
+    margin: 20px auto;
+}
+.schedule ul {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #3b3b3b;
 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.schedule ul li {}
+.schedule ul li a {}
+
+.kakaoMap {
+    background-color: yellow;
+    width: 80%; height: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+.kakaoMap p {
+    font-size: 2rem;
+    color: red;
+    line-height: 300px;
+}
+.schedule .more {
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    line-height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    width: 150px; height: 40px; }
